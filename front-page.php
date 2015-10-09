@@ -49,7 +49,7 @@
 					<?php if( $projetos->have_posts() ): ?>
 
 					<?php while ( $projetos->have_posts() ) : $projetos->the_post(); ?>
-					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 col-gutter">
 						<?php if( has_post_thumbnail() ) {
 							the_post_thumbnail('thumbnail');
 						} else {

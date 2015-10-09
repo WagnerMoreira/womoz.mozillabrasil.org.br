@@ -16,3 +16,8 @@
 .sendBtn {
 	transition: all 400ms linear;
 }
+
+.col-gutter {
+	margin-left: 29.5px;
+	width: 30%;
+}
